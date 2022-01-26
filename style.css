@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+
+.container-sidebar{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 200px;
+    height: 100%;
+    border: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.container-sidebar > div:first-child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(172, 243, 172);
+    border: 2px solid green;
+    border-radius: 50%;
+
+}
+
+.logo{
+    align-self: center;
+}
+.navigation-link{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: -20rem;
+   
+}
+
+.internal-link{
+    text-decoration: none;
+    color: #2b2b2b;
+    border: 1px solid black;
+    
+}
+
+.internal-link:hover{
+   
+   color: #2b2bb2;
+   background-color: rgb(255, 233, 233);
+    transition: .3s;
+}
+
+.profile-container{
+    align-self: center;
+    
+}
+
+.image-user{
+    height: 100px;
+    width: 100px;
+    border: 2px solid  black;
+    border-radius: 50%;
+    background-color: rgb(255, 229, 162);
+    margin: auto;
+}
+
+.name-user{
+    margin-top: 0.5rem;
+}
